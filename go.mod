@@ -12,7 +12,7 @@ require (
 	github.com/prometheus/common v0.9.1
 	github.com/sergi/go-diff v1.0.0 // indirect
 	github.com/stretchr/testify v1.4.0
-	go.mongodb.org/mongo-driver v1.3.2
+	go.mongodb.org/mongo-driver v1.3.7
 	golang.org/x/crypto v0.0.0-20190618222545-ea8f1a30c443 // indirect
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )

@@ -5,7 +5,8 @@ LABEL maintainer="Meik Minks <mminks@inoxio.de>"
 WORKDIR /go/src/github.com/percona/mongodb_exporter
 
 COPY . .
-
+RUN go env -w GO111MODULE=on
+RUN go env -w GOPROXY=https://goproxy.cn,direct
 RUN make build
 
 FROM quay.io/prometheus/busybox:latest
